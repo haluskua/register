@@ -5,7 +5,8 @@ body{
 
 }
 nav{
-	padding: 10px 0 0 10
+	padding: 10px 0 0 10px;
+	width: 240px;
 }
 nav ul{
 	list-style: none;
