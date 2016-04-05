@@ -1,0 +1,49 @@
+
+
+body{
+	font-family: Arial;
+
+}
+nav{
+	padding: 10px 0 0 10
+}
+nav ul{
+	list-style: none;
+	padding-left: 0;
+
+}
+nav li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #e5005f;
+	color: white;
+	padding: 5px 10px;
+	margin: 2px 0;
+	display: inline-block;
+	font-size: 18.5px;
+}
+
+nav li a:hover, 
+#active  {
+	background-color: #333333;
+}
+
+
+nav> a {
+	display: block;
+	text-decoration: none;
+	color: #333333;
+	text-transform: uppercase;
+	margin-left: 5px;
+	font-weight: bold;
+}
+/*
+nave ul ~ a {
+	display: block;
+}
+*/
+
+nav> a:hover{
+	color: #e5005f;
+}
+	
