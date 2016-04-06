@@ -66,3 +66,80 @@ hr{
 article img {
 	max-width: 100%;
 }
+
+/*.related {*/
+	/*background-color: orange;*/
+.related div {
+	width: 240px;
+	text-align: center;
+	/*float: left;*/
+
+
+}
+.related:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.related div:nth-of-type(1) {
+	float: left;
+	margin-left: 64px;
+}
+.related div:nth-of-type(2) {
+	float: right;
+	margin-right: 64px;
+}
+
+.related img {
+	border-radius: 50%
+}
+
+.related div a {
+	background-color: #e5005f;
+	display: block;
+	padding: 10px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	/*position: relative;
+	top: -240px;
+
+}*/
+	margin-top: -20px;
+	position: relative;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#scroll-left,
+#scroll-right {
+	font-size: 46px;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	color: #e5005f;
+	top: 40%;
+	position: absolute;
+	
+
+}
+#scroll-left {
+	left: 0;	
+
+}
+#scroll-right {
+	right: 0;
+
+}
+.related {
+	position: relative;
+}
+
+
+
+
+
+
+
+
