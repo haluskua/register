@@ -2,11 +2,14 @@
 
 body{
 	font-family: Arial;
+	padding-left: 280px;
 
 }
 nav{
 	padding: 10px 0 0 10px;
 	width: 240px;
+	position: fixed;
+	left: 18px;
 }
 nav ul{
 	list-style: none;
@@ -47,4 +50,19 @@ nave ul ~ a {
 nav> a:hover{
 	color: #e5005f;
 }
-	
+main aside p{
+	background-color: #eeeeee;
+	padding: 10px;
+	}
+
+main{
+	width: 45%;
+}
+
+hr{
+	border: none;
+	border-top: 1px solid #dddddd;
+}
+article img {
+	max-width: 100%;
+}
